@@ -15,7 +15,7 @@ def about():
 
 @app.route("/gallery/")
 def gallery():
-    return "Gallery Page"
+    return render_template("gallery.html")
 
 
 @app.route("/contact/")
