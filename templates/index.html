@@ -9,13 +9,13 @@
     header {
         position: relative;
         background-color: black;
-        height: 75vh;
+        height: 95vh;
         min-height: 25rem;
         width: 100%;
         overflow: hidden;
     }
 
-    header video {
+    header img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -48,10 +48,10 @@
 
     @media (pointer: coarse) and (hover: none) {
         header {
-            background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+            background: url('https://i.ibb.co/RbW3PCw/Untitled-design-5.png') black no-repeat center center scroll;
         }
 
-        header video {
+        header img {
             display: none;
         }
     }
@@ -62,9 +62,9 @@
 
 <header>
     <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-    </video>
+
+    <img src="https://i.ibb.co/RbW3PCw/Untitled-design-5.png" alt="">
+
     <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
@@ -74,4 +74,6 @@
         </div>
     </div>
 </header>
+
+
 {%endblock%}
